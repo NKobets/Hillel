@@ -1,0 +1,5 @@
+word_info = "Word {input_word} has {length_word} letters"
+input_word_var = input("Enter the word: ")
+length_word_var = f'symbols count: {len(input_word_var)}'
+word_info_result = word_info.format(input_word=input_word_var, length_word=length_word_var)
+print(word_info_result)
