@@ -1,0 +1,9 @@
+string_example = input("Enter:")
+string_to_list = [char for char in string_example]
+list_to_set = set(string_to_list)
+unique_symbol_count = len(list_to_set)
+
+if unique_symbol_count > 10:
+    print(True)
+else:
+    print(False)
