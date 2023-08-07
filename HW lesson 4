@@ -1,0 +1,12 @@
+# Task 1
+while True:
+    input_var = input("Enter the word with 'o': ")
+    if 'o' in input_var.lower():
+        print("Entered word is: " + input_var)
+        break
+    else:
+        print("Please, try again.")
+
+
+#Task 2
+  
