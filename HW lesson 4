@@ -18,3 +18,14 @@ print(lst2)
 
 
 #Task 3
+all_number_list = [1,2,3,4,5,6,7,8]
+sum_even_number = 0
+
+for item in all_number_list:
+    if item % 2 == 0:
+        sum_even_number += item
+
+if sum_even_number == 0:
+    print("There are no even numbers.")
+else:
+    print("Sum of even numbers is " + str(sum_even_number))
